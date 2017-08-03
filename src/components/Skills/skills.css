@@ -1,0 +1,39 @@
+.skillsTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.skillswrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    margin: 0 auto;
+    font-weight: bolder;
+}
+.skillsGrid {
+    width: 85vw;
+    height: 600px;
+    display: grid;
+    align-self: center;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.skillsGrid div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    height: 125px;
+    width: 125px;
+}
+
